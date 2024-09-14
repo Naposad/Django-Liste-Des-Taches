@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+    color: #333;
+}
+
+/* Conteneur du formulaire */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du formulaire */
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style pour le bouton "Annuler" */
+.cancel-button {
+    padding: 10px 15px;
+    background-color: #f4f4f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+    background-color: #e7e7e7;
+}
+
+.cancel-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style pour le bouton "Supprimer" */
+.delete-button {
+    padding: 10px 15px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+

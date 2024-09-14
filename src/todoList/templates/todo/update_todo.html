@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier une tâche</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/up.css' %}">
+</head>
+<body>
+    <div class="form-container">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Modifier" class="submit-button">
+        </form>
+    </div>
+</body>
+</html>

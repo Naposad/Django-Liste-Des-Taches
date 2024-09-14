@@ -1,0 +1,145 @@
+/* style.css */
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Conteneur de l'article */
+article {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Tête de tableau */
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Lignes alternées */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Titres des tâches */
+h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Boutons */
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Boutons spécifiques */
+button.delete {
+    background-color: #f44336;
+}
+
+button.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Statuts des tâches */
+h6.completed {
+    color: green;
+}
+
+h6.in-progress {
+    color: blue;
+}
+
+/* Texte vide */
+div p {
+    font-size: 1em;
+    color: #999;
+}
+
+/* Lien de création d'une nouvelle tâche */
+div a button {
+    font-size: 1.1em;
+    background-color: #008CBA;
+}
+
+div a button:hover {
+    background-color: #007bb5;
+}
+/* style.css */
+
+/* Styles pour le header et l'icône utilisateur */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon i {
+    font-size: 1.5em;
+    margin-right: 8px;
+    color: #333;
+}
+
+.user-icon a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.user-icon a:hover {
+    color: #4CAF50;
+}

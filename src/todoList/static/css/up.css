@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+    color: #333;
+}
+
+/* Conteneur du formulaire */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des champs de formulaire */
+form p {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Style du bouton de soumission */
+.submit-button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Couleur bleue pour indiquer la modification */
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #1976D2;
+}
+
+/* Messages d'erreurs */
+.errorlist {
+    color: red;
+    margin: 5px 0;
+}

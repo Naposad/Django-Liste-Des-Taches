@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Suppression de tâche</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/delete.css' %}">
+</head>
+<body>
+    <div class="form-container">
+        <form method="POST">
+            {% csrf_token %}
+            <p>Vous êtes sur de vouloir supprimer cette tache </p>
+            <button class="cancel-button"><a href="{% url 'todo-list' %}">Annuler</a></button>
+            <input type="submit" value="Supprimer" class="delete-button">
+        </form>
+    </div>
+</body>
+</html>

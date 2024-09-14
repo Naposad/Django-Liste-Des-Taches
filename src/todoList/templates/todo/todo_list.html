@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des tâches</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="user-icon">
+                    <i class="fas fa-user"></i> {{user.username}}
+                    <a href="/accounts/logout">Déconnexion</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <table>
+           <thead>
+             <tr>
+                <th>Tâche</th>
+                <th>Statut</th>
+                <th>Modifications</th>
+            </tr>
+           </thead>
+            <tbody>
+            {% if todos %}
+            {% for todo in todos %}
+            <tr>
+                <td>
+                    <h3>{{ todo.name }}</h3>
+                </td>
+                <td>
+                    {% if todo.completed %}
+                        <h6 class="completed">Terminé</h6>
+                    {% else %}
+                        <h6 class="in-progress">En cours</h6>
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="{% url 'create-todo' %}"><button>+</button></a>
+                    <a href="{% url 'update-todo' slug=todo.slug %}"><button>Modifier</button></a>
+                    <a href="{% url 'delete-todo' slug=todo.slug %}"><button>Supprimer</button></a>
+                </td>
+            </tr>
+            {% endfor %}
+            {% else %}
+                <div>
+                    <p>Aucune tache n a été ajouter</p>
+                    <a href="{% url 'create-todo' %}"><button>+</button></a>
+                </div>
+            {% endif %}
+            </tbody>
+        </table>
+    </article>
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/log.css' %}">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Connexion</h2>
+        <form method="POST" action="{% url 'account_login' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="submit-button">Se connecter</button>
+        </form>
+        <p>Pas encore de compte ? <a href="{% url 'account_signup' %}">S'inscrire</a></p>
+    </div>
+</body>
+</html>
