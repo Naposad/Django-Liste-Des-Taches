@@ -4,49 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05135d58-0005-4770-aed9-a27761352097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ToDo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDo/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToDo/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/0002_todo_slug_alter_todo_date_alter_todo_date_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/0003_alter_todo_date_alter_todo_date_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/0004_alter_todo_date_alter_todo_date_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/0005_alter_todo_date_alter_todo_date_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/0006_todo_mytodo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/0007_alter_todo_mytodo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/static/css/accueil.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/static/css/delete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/static/css/log.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/static/css/up.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/templates/todo/create_todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/templates/todo/delete_todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/templates/todo/todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/templates/todo/todo_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/templates/todo/update_todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todoList/views.py" afterDir="false" />
+    <list default="true" id="05135d58-0005-4770-aed9-a27761352097" name="Changes" comment="Todo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Naposad&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Naposad/Django-ToDo.git&quot;,
+    &quot;accountId&quot;: &quot;d5ae9c14-d09c-414e-8a49-ee35f62c1a0c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -135,9 +106,28 @@
       <option name="presentableId" value="Default" />
       <updated>1725894566829</updated>
     </task>
+    <task id="LOCAL-00001" summary="Todo">
+      <option name="closed" value="true" />
+      <created>1726356289201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726356289201</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Todo">
+      <option name="closed" value="true" />
+      <created>1726356389905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726356389905</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo" />
   </component>
 </project>
